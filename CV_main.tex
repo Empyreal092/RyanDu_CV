@@ -16,75 +16,96 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
+%----------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%----------------------------------------------------
 
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{etaremune}
+\usepackage{enumitem}
 
 \name{Ryan Sh\`iji\'e D\`u} % Your name
-\address{Courant Institute of Mathematical Sciences, New York University} % Your secondary addess
-\address{251 Mercer Street, New York, NY 10012 \\ \texttt{ryan\_sjdu@nyu.edu}} % Your phone number and email
-\address{The Center for Atmosphere Ocean Science (CAOS)} % Your address
+\address{Department of Geophysics, Colorado School of Mines} % Your secondary addess
+\address{ \texttt{ryan\_sjdu@nyu.edu }\\ \href{https://sites.google.com/view/ryan-shijie-du}{ \texttt{sites.google.com/view/ryan-shijie-du}}} % Your phone number and email
+% \address{The Center for Atmosphere Ocean Science (CAOS)} % Your address
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
+%----------------------------------------------------
 
 \begin{rSection}{Education}
 
-{\bf New York University, Ph.D.} Mathematics and Atmosphere Ocean Science \hfill {2020 - Present} \\
-Center for Atmosphere Ocean Science, Courant Institute of Mathematical Sciences\\
+{\bf New York University, Ph.D.} in Mathematics and Atmosphere Ocean Science \hfill {2020 - 2025} \\
+Center for Atmosphere Ocean Science (CAOS), Courant Institute of Mathematical Sciences\\
+% Thesis: \textit{Asymptotic corrections to linear models for the physical ocean at the submesoscale and smaller}
 Advisors: Oliver B\"uhler, Shafer Smith
 
-{\bf University of California, Los Angeles, B.Sc.} Applied Mathematics \hfill {2016 - 2020} \\
-Specialization in Computing, Minor in Philosophy\\
-Honors Program in Applied Mathematics, College Honors Program, summa cum laude\\
-Mentor: Andrea Bertozzi
+{\bf University of California, Los Angeles, B.Sc.} in Applied Mathematics \hfill {2016 - 2020} \\
+Honors Program in Applied Mathematics, minor in Philosophy, summa cum laude
+% \\Mentor: Andrea Bertozzi
 
 % Coursework includes: Numerical Analysis, Stochastic Analysis, (Bayesian) Inverse Problems, Turbulence, Convex Optimization, Mathematical Statistics, and High Performance Computing.
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%----------------------------------------------------
 
-\begin{rSection}{Publications}
-%{\bf Refereed}
+\begin{rSection}{Professional Appointments}
+
+\textbf{Post-doctoral fellow}, Colorado School of Mines, Department of Geophysics \hfill {2025 - Present}\\
+Mentor: Bia Villas Bôas
+
+\end{rSection}
+
+%----------------------------------------------------
+\begin{rSection}{Refereed Publications}
+{\bf Submitted}
+\renewcommand{\theenumi}{S.\arabic{enumi}}
 \begin{etaremune}
-    \item \underline{D\`u, R.S.}, Smith K.S., 2024. \textit{Emergent vorticity asymmetry of one and two-layer shallow water system captured by a next-order balanced model}. Submitted to Journal of Fluid Mechanics.
-    \item \underline{D\`u, R.S.}, Smith K.S., Bühler, O., 2024. \textit{Next-order balanced model captures submesoscale physics and statistics}. Submitted to Journal of Physical Oceanography.
+    \setcounter{enumi}{5}
+    \item \underline{D\`u, R.S.}, Smith K.S., 2025. \textit{Emergent vorticity asymmetry of one and two-layer shallow water system captured by a next-order balanced model}. In revision at Journal of Fluid Mechanics.
+    \item \underline{D\`u, R.S.}, Smith K.S., Bühler, O., 2025. \textit{Next-order balanced model captures submesoscale physics and statistics}. In revision at Journal of Physical Oceanography.
+\end{etaremune}
+{\bf Refereed}
+\renewcommand{\theenumi}{R.\arabic{enumi}}
+\begin{etaremune}
     \item \underline{D\`u, R.S.}, B\"uhler, O., 2023. \textit{The Impact of Frequency Bandwidth on a One-Dimensional Model for Dispersive Wave Turbulence}. J Nonlinear Sci 33, 81.
     \item \underline{Du, R.S.}, Liu, L., Ng, S., Sambandam, S., Hernandez Adame, B., Perez, H., Ha, K., Falcon, C., de Rutte, J., Di Carlo, D., Bertozzi, A.L., 2021. \textit{Statistical energy minimization theory for systems of drop-carrier particles}. Phys. Rev. E 104, 015109.
+\end{etaremune}
+{\bf Other}
+\renewcommand{\theenumi}{O.\arabic{enumi}}
+\begin{etaremune}
+    \item \underline{D\`u, R.S.}, 2025. \textit{Asymptotic corrections to linear models for the physical ocean at the submesoscale and smaller}. Ph.D. Thesis, New York University.
     \item Lindstrom, M.R., \underline{Du, R.S.}, Ng, X.Y., Diaz, D., Koulikova, M., Nero, M., Ross, H., Shukla, S., Bertozzi, A.L., Brantingham, P.J., 2019. \textit{Using local geographic features to predict changes in the Los Angeles homeless population}. UCLA CAM Reports 19-62.
 \end{etaremune}
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%----------------------------------------------------
 
-\begin{rSection}{Presentations}
+\begin{rSection}{Selected Presentations}
+\renewcommand{\theenumi}{P.\arabic{enumi}}
 \begin{etaremune}
     \item \textit{Next-order in Rossby SQG\textsuperscript{+1} model for reconstructing velocity from sea surface height}\\
-        $\left.\;\right.$ eLighting at AGU Annual Meeting (AGU24), \hfill December 2024.
+        $\left.\;\right.$ AGU Annual Meeting (AGU24), \hfill 2024
     \item \textit{Next-order balanced model for shallow water captures vorticity asymmetry}\\
-        $\left.\;\right.$ Poster at AGU Annual Meeting (AGU24), \hfill December 2024.
+        $\left.\;\right.$ AGU Annual Meeting (AGU24), \hfill 2024
     \item \textit{Next-order balanced model captures submesoscale physics and statistics}\\
-        $\left.\;\right.$ Talk at AGU Ocean Sciences Meeting (OSM24), \hfill February 2024;\\
-        $\left.\;\right.$ Poster at the Conf. on Atmo. and Oceanic Fluid Dynamics (AOFD24), \hfill June 2024.
+        $\left.\;\right.$ AGU Ocean Sciences Meeting (OSM24), \hfill 2024
+        % \\ $\left.\;\right.$ Conf. on Atmo. and Oceanic Fluid Dynamics (AOFD24), \hfill 2024.
     \item \textit{SQG\textsuperscript{+1} as a Model for Submesoscale Asymmetry}\\
-        $\left.\;\right.$ Poster at FilaChange 2022, \hfill August 2022.
+        $\left.\;\right.$ FilaChange Workshop, \hfill 2022
     \item \textit{Domain dependence of wave turbulence theory for the Majda-McLaughlin-Tabak (MMT) model}\\
-        $\left.\;\right.$ Poster at the Conf. on Atmo. and Oceanic Fluid Dynamics (AOFD23), \hfill June 2022;\\
-        $\left.\;\right.$ Poster at the 2022 Gordon Conference: Ocean Mixing, \hfill June 2022.
-    \item \textit{Modeling systems of drop carrier particles through energy minimization} \\
-        $\left.\;\right.$ Poster at the 72nd Annual Meeting of the Division of Fluid Dynamics (APS DFD), \hfill Nov 2019.
+        $\left.\;\right.$ Conf. on Atmo. and Oceanic Fluid Dynamics (AOFD22), \hfill 2022\\
+        $\left.\;\right.$ 2022 Gordon Conference: Ocean Mixing, \hfill 2022
+    % \item \textit{Modeling systems of drop carrier particles through energy minimization} \\
+    %     $\left.\;\right.$ 72nd Annual Meeting of the Division of Fluid Dynamics (APS DFD), \hfill 2019.
 \end{etaremune}
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%----------------------------------------------------
 
 % \begin{rSection}{Research Experiences}
 % \begin{rSubsection}{Next order model balanced model for ocean flows.}{2022-Present}
@@ -128,8 +149,8 @@ Mentor: Andrea Bertozzi
 \begin{rSection}{Mentoring}
 \begin{itemize}
     \itemsep -0.3em
-    \item Mentor for Qi Liu \hfill 2024\\
-    $\left.\;\right.$ Undergraduate research at NYU
+    \item Mentor for Qi Liu \hfill 2024-2025\\
+    $\left.\;\right.$ Undergraduate research at NYU, now Ph.D. student at NYU CAOS
     \item Co-mentor for Kai Hung and Daniel Wang \hfill 2023 \\
     $\left.\;\right.$ NYU Applied Math Summer Undergraduate Research Experience (AM-SURE)
     \item Co-mentor for Andreas Louskos  \hfill 2023\\
@@ -137,22 +158,39 @@ Mentor: Andrea Bertozzi
 \end{itemize}
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%----------------------------------------------------
 
 \begin{rSection}{ACADEMIC AND UNIVERSITY SERVICE}
 \begin{itemize}
     \itemsep -0.3em
-    \item Peer reviewer for \textit{Geophysical Research Letters (GRL)}
+    \item Peer reviewer for \textit{Geophysical Research Letters} (GRL), \textit{Journal of Advances in Modeling Earth Systems} (JAMES), \textit{Journal of Geophysical Research} (JGR:Oceans), 
+    \textit{Journal of Atmospheric and Oceanic Technology} (JTECH)
     \item Program co-coordinator for NYU Applied Math Summer Undergraduate Research Experience (AM-SURE) \hfill 2023
     \item Faculty adviser for the Mathematical Contest in Modeling (MCM) \hfill 2023-2024
-    \item Member of the committee on reviewing the results of the Courant PhD. student survey \hfill 2024
+    \item Member of the committee on reviewing the results of the Courant Ph.D. student survey \hfill 2024
 \end{itemize}
 \end{rSection}
 
+%----------------------------------------------------
+\begin{rSection}{Teaching Experiences}
+\begin{itemize}
+    % \itemsep -0.3em
+    \item Guest lecturer for Columbia's Geophysical Fluid Dynamics course \hfill 2024\\
+    $\left.\;\right.$ on using Dedalus to simulate some classic simple models of GFD
+    \item Teaching Assistant for Undergraduate courses at Courant, NYU\\
+    $\left.\;\right.$ Probability \& Statistics \hfill Spring 2025\\
+    $\left.\;\right.$ Analysis \hfill Spring, Fall 2024\\
+    $\left.\;\right.$ Numerical Analysis \hfill Fall 2022, 2023\\
+    $\left.\;\right.$ Partial Differential Equations \hfill Spring 2023\\
+    $\left.\;\right.$ Introduction to Fluid Dynamics \hfill Spring 2023
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------
 \begin{rSection}{Outreach}
 \begin{itemize}
     \itemsep -0.3em
-    \item Lecturer at Courant Splash (cSplash) to NYC high school students \hfill 2023
+    \item Lecturer at Courant Splash (cSplash) to NYC high school students \hfill 2025, 2023
     \item Lecturer at NYU College \& Career Lab to rising 8\textsuperscript{th} grade students \hfill 2023
     \item Founding board member of NYU SIAM student chapter \hfill 2020-2022
     \item Teaching assistant of a planetary scale ocean circulation course for the World Science Scholars program, led by Professor David Holland \hfill 2020-2021
@@ -196,49 +234,24 @@ Mentor: Andrea Bertozzi
 % \end{rSubsection}
 % \end{rSection}
 
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Teaching Experiences}
-\begin{itemize}
-    % \itemsep -0.3em
-    \item Guest lecturer for Columbia's Geophysical Fluid Dynamics course \hfill 2024\\
-    $\left.\;\right.$ on using Dedalus to simulate some classic simple models of GFD
-    \item Teaching Assistant for Undergraduate courses at Courant Institute of Mathematical Sciences, NYU\\
-    $\left.\;\right.$ Analysis \hfill Spring, Fall 2024\\
-    $\left.\;\right.$ Numerical Analysis \hfill Fall 2022, 2023\\
-    $\left.\;\right.$ Partial Differential Equations \hfill Spring 2023\\
-    $\left.\;\right.$ Introduction to Fluid Dynamics \hfill Spring 2023
-\end{itemize}
-
-% \begin{rSubsection}{Teaching Assistant {\normalfont\textit{at Courant Institute of Mathematical Sciences, NYU}}}{}{}{}
-% \item Partial Differential Equations (Undergraduate). \hfill Spring 2023
-% \item Introduction to Fluid Dynamics (Undergraduate). \hfill Spring 2023
-% \item Numerical Analysis (Undergraduate). \hfill Fall 2022
-% \end{rSubsection}
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-
+%----------------------------------------------------
 \begin{rSection}{Technical Strengths}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 Languages & English, Chinese (Mandarin)\\
-Programming Languages & MATLAB, Python (including Dedalus, FEniCS, Tensorflow), C++\\
+Programming Languages & MATLAB, Python (including Dedalus, JAX, FEniCS), C++\\
 Software & \LaTeX, Inkscape, Qt (in Python and C++), QGIS
 \end{tabular}
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%----------------------------------------------------
 
-\begin{rSection}{Websites}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Personal Website & \href{https://sites.google.com/view/ryan-shijie-du}{sites.google.com/view/ryan-shijie-du}\\
-GitHub & \href{https://github.com/Empyreal092}{github.com/Empyreal092}
-\end{tabular}
-
-
-
-\end{rSection}
+% \begin{rSection}{Websites}
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+% Personal Website & \href{https://sites.google.com/view/ryan-shijie-du}{sites.google.com/view/ryan-shijie-du}\\
+% GitHub & \href{https://github.com/Empyreal092}{github.com/Empyreal092}
+% \end{tabular}
+% \end{rSection}
 
 \end{document}
